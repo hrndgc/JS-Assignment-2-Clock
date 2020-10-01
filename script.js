@@ -78,8 +78,8 @@ function zuluTime(){
 
     var time = h + ":" + m + ":" + s + " " + session;
     document.getElementById("zulu").innerText = time;
-    document.getElementById("lzulu").textContent = time;
-    setTimeout(lonTime, 1000);
+    document.getElementById("zulu").textContent = time;
+    setTimeout(zuluTime, 1000);
 }
 zuluTime();
 
