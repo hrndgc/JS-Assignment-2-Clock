@@ -52,7 +52,7 @@ h2{
     margin-bottom: 15px;
     margin-top: 13px;
     border-radius: 10px;
-    background-color: rgb(202, 170, 190);
+    background-color: rgb(212, 182, 201);
 }
 @media only screen and (max-width: 1200px) {
     .clock-container{
